@@ -1,0 +1,7 @@
+my_string = input("Напишите слово, которое сейчас пришло вам в голову: ")
+print("Количество символов введенного текста:", len(my_string))
+print("Я верхний регистр: ", my_string. upper())
+print("Я нижний регистр: ", my_string.lower())
+print("У меня нет пробелов: ", my_string.replace(" ", ""))
+print("Первый символ строки: ", my_string[0])
+print("Последний символ строки: ", my_string[-1])
